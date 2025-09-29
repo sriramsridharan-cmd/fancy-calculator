@@ -11,7 +11,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/<YOUR-USERNAME>/fancy-calculator.git'
+        git branch: 'main', url: 'https://github.com/sriramsridharan-cmd/fancy-calculator.git'
       }
     }
 
