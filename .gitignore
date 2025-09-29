@@ -1,0 +1,21 @@
+# Ignore Maven build folder
+target/
+
+# Logs
+*.log
+
+# Compiled class files
+*.class
+
+# IDE specific files
+*.idea/
+*.project
+*.settings/
+*.classpath
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Docker images saved as tar
+*.tar
